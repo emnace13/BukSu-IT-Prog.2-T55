@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    printf("A program ask the user two integers then\n");
+    printf("add, multiple, divide and subtract them");
+
+    printf("\n");
+    printf("\n");
+
+    int num1, num2, add, mult, div, sub;
+
+    printf("Input any two integer: ");
+    scanf("%d %d", &num1, &num2);
+
+    add = num1 + num2;
+    mult = num1 * num2;
+    div = num1 / num2;
+    sub = num1 - num2;
+
+    printf("\n");
+    printf("\n");
+
+    printf("ADD = %d\n", add);
+    printf("MUL = %d\n", mult);
+    printf("DIV = %d\n", div);
+    printf("SUB = %d\n", sub);
+
+    return 0;
+}
