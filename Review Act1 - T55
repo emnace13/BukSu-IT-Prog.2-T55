@@ -4,11 +4,8 @@
 
 int main()
 {
-    printf("A program ask the user two integers then\n");
-    printf("add, multiple, divide and subtract them");
-
-    printf("\n");
-    printf("\n");
+    // A program ask the user two integers then
+    // add, multiple, divide and subtract them
 
     int num1, num2, add, mult, div, sub;
 
@@ -20,13 +17,12 @@ int main()
     div = num1 / num2;
     sub = num1 - num2;
 
-    printf("\n");
-    printf("\n");
-
     printf("ADD = %d\n", add);
     printf("MUL = %d\n", mult);
     printf("DIV = %d\n", div);
     printf("SUB = %d\n", sub);
+
+    printf("\n");
 
     return 0;
 }
