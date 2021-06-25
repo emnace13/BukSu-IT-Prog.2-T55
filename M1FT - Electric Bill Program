@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+//	+ Write a program in C to calculate and print the Electricity bill of a given customer.
+//	+ The customer ID., and Unit Consumed by the user should be inputted.
+//	+ Print All Customer Data (Customer ID., Unit Consumed, Unit Charges, Surcharge, Customer Total Bill)
+
 void main()
 {
    int custid, ucon;
@@ -26,5 +31,6 @@ void main()
    printf("unit Charges @P. 2.00  per unit     :%8.2f\n",uchg);
    printf("Surchage Amount                     :%8.2f\n",surchg);
    printf("Total Cusmoter Bill                 :%8.2f\n",totbill);
+
 
 }
